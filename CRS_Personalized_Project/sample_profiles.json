@@ -1,0 +1,102 @@
+{
+  "_note": "SYNTHETIC sample profiles for testing only - not real students.",
+  "profiles": [
+    {
+      "interests": "Python, Artificial Intelligence, Data Science",
+      "current_skills": "Basic Python",
+      "desired_skills": "Machine Learning and Data Analysis",
+      "level": "Beginner",
+      "career_goal": "Data Scientist",
+      "max_budget": 100,
+      "max_duration_hours": null,
+      "subjects": [],
+      "platforms": [],
+      "strict_subject": false,
+      "name": "Beginner - data science"
+    },
+    {
+      "interests": "Web Development, JavaScript",
+      "current_skills": "HTML, CSS",
+      "desired_skills": "React, Node.js",
+      "level": "Intermediate",
+      "career_goal": "Web Developer",
+      "max_budget": 50,
+      "max_duration_hours": null,
+      "subjects": [
+        "Web Development"
+      ],
+      "platforms": [],
+      "strict_subject": false,
+      "name": "Intermediate - web development"
+    },
+    {
+      "interests": "Machine Learning, Deep Learning",
+      "current_skills": "",
+      "desired_skills": "neural networks",
+      "level": "Advanced",
+      "career_goal": "Machine Learning Engineer",
+      "max_budget": 200,
+      "max_duration_hours": null,
+      "subjects": [],
+      "platforms": [],
+      "strict_subject": false,
+      "name": "Advanced - deep learning"
+    },
+    {
+      "interests": "guitar",
+      "current_skills": "",
+      "desired_skills": "",
+      "level": "Beginner",
+      "career_goal": "",
+      "max_budget": 30,
+      "max_duration_hours": 10,
+      "subjects": [
+        "Musical Instruments"
+      ],
+      "platforms": [],
+      "strict_subject": false,
+      "name": "Beginner - music, short courses"
+    },
+    {
+      "interests": "Financial Modeling, Excel",
+      "current_skills": "",
+      "desired_skills": "",
+      "level": "Intermediate",
+      "career_goal": "Financial Analyst",
+      "max_budget": 50,
+      "max_duration_hours": null,
+      "subjects": [],
+      "platforms": [],
+      "strict_subject": false,
+      "name": "Intermediate - finance, low budget"
+    },
+    {
+      "interests": "Photoshop, Graphic Design",
+      "current_skills": "",
+      "desired_skills": "",
+      "level": "Beginner",
+      "career_goal": "",
+      "max_budget": 0,
+      "max_duration_hours": null,
+      "subjects": [
+        "Graphic Design"
+      ],
+      "platforms": [],
+      "strict_subject": false,
+      "name": "Beginner - design, free only"
+    },
+    {
+      "interests": "pyhton, ML",
+      "current_skills": "",
+      "desired_skills": "",
+      "level": null,
+      "career_goal": "",
+      "max_budget": 50,
+      "max_duration_hours": null,
+      "subjects": [],
+      "platforms": [],
+      "strict_subject": false,
+      "name": "Typos and abbreviations"
+    }
+  ]
+}
