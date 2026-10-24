@@ -77,15 +77,28 @@ def show_auth():
 
 
 def _api_provider_and_key():
-    """Detect Groq keys (gsk_) separately from xAI/Grok keys (xai-)."""
-    groq_key = (os.getenv("GROQ_API_KEY") or "").strip()
-    xai_key = (os.getenv("XAI_API_KEY") or os.getenv("GROK_API_KEY") or "").strip()
-    # A gsk_ key belongs to Groq, not xAI. Detect it even if it was mistakenly
-    # placed in XAI_API_KEY so the UI can explain the provider mismatch.
+    """Detect Groq keys separately from xAI/Grok keys."""
+    groq_key = (
+        os.getenv("GROQ_API_KEY") or ""
+    ).strip()
+
+    xai_key = (
+        os.getenv("XAI_API_KEY")
+        or os.getenv("GROK_API_KEY")
+        or ""
+    ).strip()
+
+    # Use the configured Groq key, or the fallback key.
+    if not groq_key and not xai_key.startswith("gsk_"):
+        groq_key = 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
+
+    # Detect Groq keys even if placed in an xAI variable.
     if groq_key or xai_key.startswith("gsk_"):
         return "groq", groq_key or xai_key
+
     if xai_key:
         return "xai", xai_key
+
     return None, None
 
 
