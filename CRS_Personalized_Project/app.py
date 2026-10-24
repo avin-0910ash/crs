@@ -90,7 +90,7 @@ def _api_provider_and_key():
 
     # Use the configured Groq key, or the fallback key.
     if not groq_key and not xai_key.startswith("gsk_"):
-        groq_key = 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
+        groq_key = "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"
 
     # Detect Groq keys even if placed in an xAI variable.
     if groq_key or xai_key.startswith("gsk_"):
